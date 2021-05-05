@@ -12,6 +12,9 @@ CONFIG = {"KEY_FILE_LOCATION": 'Здесь указываешь путь до ф
 
 
 class SheetInit:
+    """
+    Инициализация build'a для работы с p12 файлом, в будущем сделаю и для Json
+    """
     def __init__(self):
         self.sheet = build('sheets',
                            'v4',
